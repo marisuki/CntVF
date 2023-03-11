@@ -21,8 +21,8 @@ select folder -> Compile and Run.
 
 Dataset SPECIFY: see ./encode/encoder.cc  We give some demos here.
 
-### 1 Integrated test/debug over VSCode  platform
-### 2 use shell/terminal/ps: 
+### 1 Integrated test/debug over the VSCode platform
+### 2 OR: use shell/terminal/ps: 
 
 g++ -O3 -mavx -mavx2 ./query/optcntVFq.hpp ./query/optcntVFq.cc -o cntvf
 
@@ -32,3 +32,5 @@ Or use:
 
 bash ./cntvf
 
+### Note: The following link will soon available, but some efforts are still needed to integrate the CPP packages to a JVM-based project.
+https://github.com/apache/iotdb/tree/research/count-SIMD
